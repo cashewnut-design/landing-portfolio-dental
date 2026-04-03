@@ -1,0 +1,336 @@
+@import url(commons.css);
+
+.gnb{
+    display: flex;
+}
+
+.key-visual{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+}
+
+.kv-section {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    overflow: hidden; /* 이미지가 넘칠 경우 대비 */
+}
+
+.kv-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 텍스트와 이미지 수직 중앙 정렬 */
+    position: relative; /* ★ 중요: 별 아이콘이 위치를 잡는 '기준점'이 됩니다 */
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 26px;
+}
+
+.kv-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.key-text-1 h4 {
+    line-height: 36px;
+    color: #202022;
+    margin-bottom: 20px;
+    
+}
+
+.naming h1 {
+    margin-top: -10px; /* 타이틀과 위 텍스트 밀착 조절 */
+    color: #202022;
+    margin-bottom: 60px;
+}
+
+.key-text-2 p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #202022;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.motify-teeth {
+    position: absolute; 
+    left: 38%; 
+    bottom: 11%; 
+    width: 90px; 
+    z-index: 10; 
+}
+
+.kv-photo-wrap {
+    flex: 1.2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-photo {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    object-fit: cover;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    
+}
+
+
+.motify-logo img {
+    width: 275px; /* 시안의 크기 적용 */
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.section-2{
+    display: flex;
+    height: 383px;
+    width: 100%;
+    background-color: #0046b6;
+    align-content: center;
+    justify-content: center;
+    font-display: swap;
+    padding: 60px;
+    margin: auto;
+}
+
+.section-2-index{
+    display: flex;
+    gap: 498px;
+    justify-content: space-between;
+    color: #fff;
+    padding: 60px, 108px;
+    align-items: center;
+}
+
+.section-3{
+    display: flex;
+    width: 100% ;
+    height: 855px ;
+    background-image: url(../images/section-3-bg.png);
+    background-size: cover; 
+    background-position: center;  
+}
+
+.section-3-index{
+    flex-direction: column;
+    margin: auto;
+}
+
+.section-3-text{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0046B6;
+}
+
+.section-3-bar{
+    width: 708px;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+    color: #202022;
+}
+
+.bar-number{
+    padding: 12px 9px ;
+    width: 60px ;
+    height: 60px ;
+    background-color: #0046B6 ;
+    align-items: center ;
+    text-align: center ;
+    border-radius: 100px; 
+    color: #fff ;
+}
+
+.section-4{
+    height: 715px;
+    margin: auto;
+}
+
+.section-4-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+    gap: 140px;
+}
+
+.score{
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.score-text{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.score-bar-1{
+    text-align: center;
+    width: 471px;
+    background-color: #F2F8FF;
+    border-radius: 15px;
+    color: #0046B6;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.score-bar-2{
+    text-align: center;
+    width: 471px;
+    background-color: #F2F8FF;
+    border-radius: 15px;
+    color: #202022;
+    padding: 20px;
+}
+
+.medical-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 20px;             
+}
+
+.medical-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 12px;           
+}
+
+.section-5{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 890px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(../images/section-5-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;  
+    
+}
+
+.section-5-index{
+    margin: 120px auto;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title{
+    margin-bottom: 60px;
+}
+
+.section-text{
+    margin-bottom: 60px;
+}
+.system-bar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #202022;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.section-6{
+    height: 875px;
+    background-color: #202022;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-6-index{
+    margin: 120px auto;
+    gap: 12px;
+    
+}
+
+.case-text{
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.case-title{
+    margin-bottom: 20px;
+}
+
+.bna-photo{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.bna-text{
+    margin-top: 40px;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    gap: 221px;
+}
+
+.section-7 {
+    background-color: #F2F8FF;
+    display: flex;
+    justify-content: center; /* 전체를 화면 가운데로 */
+    padding: 120px 0;
+}
+
+.section-7-index {
+    width: 1440px; /* 시안 기준 너비 */
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.intro-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    width: 100%;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-7-motify {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.section-7-motify img {
+    width: 200px;
+    height: auto;
+    margin-top: 100px; 
+}
+
+.card-contents {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: 572px;
+}
+
